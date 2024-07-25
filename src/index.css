@@ -11,3 +11,11 @@
     font-family: FoundersGrotesk;
     src: url(/Fonts/FoundersGrotesk-Semibold.woff);
 }
+
+.linkContainer:hover .upText {
+    transform: translateY(-100%) !important;
+}
+
+.linkContainer:hover .downText {
+    transform: translateY(-100%) !important;
+}

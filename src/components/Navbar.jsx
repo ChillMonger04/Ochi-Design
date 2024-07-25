@@ -32,7 +32,7 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      
+
       <div className="links flex gap-[3vw]">
         {["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
           (item, index) => (
@@ -42,7 +42,10 @@ const Navbar = () => {
                 index === 4 && "ml-[10vw]"
               }`}
             >
-              {item}
+              <div className="linkContainer h-[1.9vw] overflow-hidden">
+              <p className="upText transition-all ease-linear duration-300">{item}</p>
+              <p className="downText transition-all ease-linear duration-300">{item}</p>
+              </div>
             </a>
           )
         )}
