@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: NeueMontreal;
-    src: url(/Fonts/NeueMontreal-Regular.woff);
+html,
+body {
+  overflow: hidden;
 }
 
 @font-face {
-    font-family: FoundersGrotesk;
-    src: url(/Fonts/FoundersGrotesk-Semibold.woff);
+  font-family: NeueMontreal;
+  src: url(/Fonts/NeueMontreal-Regular.woff);
+}
+
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url(/Fonts/FoundersGrotesk-Semibold.woff);
 }
 
 .linkContainer:hover .upText {
-    transform: translateY(-100%) !important;
+  transform: translateY(-100%) !important;
 }
 
 .linkContainer:hover .downText {
-    transform: translateY(-100%) !important;
+  transform: translateY(-100%) !important;
 }
